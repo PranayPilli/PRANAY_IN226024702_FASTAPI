@@ -1,8 +1,7 @@
-# PRANAY_IN226024702_FASTAPI
 # FastAPI Assignment 1
 
-Name: Pranay Pilli  
-Intern ID: IN226024702
+**Name:** Pranay Pilli  
+**Intern ID:** IN226024702  
 
 ## Description
 This project is a simple FastAPI application that provides APIs to manage and view product information.
@@ -14,7 +13,7 @@ This project is a simple FastAPI application that provides APIs to manage and vi
 - GitHub
 
 ## Project Structure
-
+```
 PRANAY_IN226024702_FASTAPI
 │
 └── ASSIGNMENT 1
@@ -29,22 +28,29 @@ PRANAY_IN226024702_FASTAPI
     ├── Q5_Book.png
     ├── Q5_NotFound.png
     └── Bonus_Output.png
+```
 
 ## API Endpoints
-- /products
-- /products/category/{category}
-- /products/instock
-- /store/summary
-- /products/search/{keyword}
-- /products/deals
+- `/products`
+- `/products/category/{category}`
+- `/products/instock`
+- `/store/summary`
+- `/products/search/{keyword}`
+- `/products/deals`
 
 ## Run the Project
 
 Install dependencies:
+```
 pip install fastapi uvicorn
+```
 
 Run the server:
+```
 uvicorn main:app --reload
+```
 
 Open in browser:
+```
 http://127.0.0.1:8000/docs
+```
