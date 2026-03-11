@@ -1,10 +1,10 @@
-# FastAPI Assignment 1
+# FastAPI Assignments
 
 **Name:** Pranay Pilli  
 **Intern ID:** IN226024702  
 
-## Description
-This project is a simple FastAPI application that provides APIs to manage and view product information.
+## Project Overview
+This repository contains two FastAPI assignments that demonstrate building REST APIs for a simple product store. The APIs allow users to view products, filter them, submit feedback, and place bulk orders.
 
 ## Technologies Used
 - Python
@@ -13,44 +13,52 @@ This project is a simple FastAPI application that provides APIs to manage and vi
 - GitHub
 
 ## Project Structure
-```
 PRANAY_IN226024702_FASTAPI
 │
-└── ASSIGNMENT 1
-    ├── main.py
-    ├── Q1_Output.png
-    ├── Q2_Electronics.png
-    ├── Q2_Stationery.png
-    ├── Q2_Error.png
-    ├── Q3_Output.png
-    ├── Q4_Output.png
-    ├── Q5_Mouse.png
-    ├── Q5_Book.png
-    ├── Q5_NotFound.png
-    └── Bonus_Output.png
-```
+├── ASSIGNMENT 1
+│   ├── main.py
+│   ├── Q1_Output.png
+│   ├── Q2_Output.png
+│   ├── Q3_Output.png
+│   ├── Q4_Output.png
+│   └── Q5_Output.png
+│
+├── ASSIGNMENT 2
+│   ├── main.py
+│   ├── Q1_Output(1).png
+│   ├── Q2_Output(1).png
+│   ├── Q3_Output.png
+│   ├── Q4_Output.png
+│   └── Q5_Output.png
+│
+└── README.md
 
-## API Endpoints
-- `/products`
-- `/products/category/{category}`
-- `/products/instock`
-- `/store/summary`
-- `/products/search/{keyword}`
-- `/products/deals`
+## Assignment 1 – Product APIs
+APIs to manage and view product information.
+
+Endpoints:
+- /products
+- /products/category/{category}
+- /products/instock
+- /store/summary
+- /products/search/{keyword}
+- /products/deals
+
+## Assignment 2 – Advanced APIs
+Additional APIs for filtering products, submitting feedback, and placing bulk orders.
+
+Endpoints:
+- /products/filter
+- /feedback
+- /orders/bulk
 
 ## Run the Project
 
 Install dependencies:
-```
 pip install fastapi uvicorn
-```
 
 Run the server:
-```
 uvicorn main:app --reload
-```
 
-Open in browser:
-```
+Open API documentation:
 http://127.0.0.1:8000/docs
-```
