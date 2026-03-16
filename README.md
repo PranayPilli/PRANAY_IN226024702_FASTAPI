@@ -3,9 +3,14 @@
 **Name:** Pranay Pilli
 **Intern ID:** IN226024702
 
+---
+
 ## Project Overview
 
-This repository contains multiple FastAPI assignments demonstrating how to build REST APIs using Python and FastAPI. The project includes APIs for product management and a simple shopping cart system.
+This repository contains multiple FastAPI assignments demonstrating how to build REST APIs using **Python** and **FastAPI**.
+The project includes APIs for **product management** and a **shopping cart system**.
+
+---
 
 ## Technologies Used
 
@@ -14,8 +19,11 @@ This repository contains multiple FastAPI assignments demonstrating how to build
 * Uvicorn
 * GitHub
 
+---
+
 ## Project Structure
 
+```
 PRANAY_IN226024702_FASTAPI
 │
 ├── ASSIGNMENT 1
@@ -44,6 +52,7 @@ PRANAY_IN226024702_FASTAPI
 │   └── Q5_Output.png
 │
 └── README.md
+```
 
 ---
 
@@ -51,7 +60,7 @@ PRANAY_IN226024702_FASTAPI
 
 Basic APIs to manage and view product information.
 
-**Endpoints**
+### Endpoints
 
 * `/products`
 * `/products/category/{category}`
@@ -66,7 +75,7 @@ Basic APIs to manage and view product information.
 
 Additional APIs for filtering products, submitting feedback, and placing bulk orders.
 
-**Endpoints**
+### Endpoints
 
 * `/products/filter`
 * `/feedback`
@@ -78,7 +87,7 @@ Additional APIs for filtering products, submitting feedback, and placing bulk or
 
 APIs to simulate a simple shopping cart system.
 
-**Endpoints**
+### Endpoints
 
 * `/cart/add`
 * `/cart`
@@ -89,14 +98,20 @@ APIs to simulate a simple shopping cart system.
 
 ## Run the Project
 
-Install dependencies:
+### Install dependencies
 
+```
 pip install fastapi uvicorn
+```
 
-Run the server:
+### Run the server
 
+```
 uvicorn main:app --reload
+```
 
-Open API documentation:
+### Open API documentation
 
+```
 http://127.0.0.1:8000/docs
+```
